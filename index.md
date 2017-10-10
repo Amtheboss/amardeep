@@ -1,37 +1,485 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Amtheboss/amardeep.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Amardeep gupta</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Design Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- Portfolio-CSS -->	<link rel="stylesheet" href="css/swipebox.css" type="text/css" media="all">
+		
+<link href="css/aos.css" rel="stylesheet" type="text/css" media="all" /><!-- //animation effects-css-->
 
-### Markdown
+<link rel="stylesheet" href="css/index.css"><!-- skills bars CSS-->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- custom-theme -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //custom-theme -->
+	  
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
 
-```markdown
-Syntax highlighted code block
+<!-- googlefonts -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900&amp;subset=arabic,latin-ext" rel="stylesheet">
+<!-- //googlefonts -->
 
-# Header 1
-## Header 2
-### Header 3
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="agileinfo-dot">
+		<div class="container">
+		<!-- header -->
+		<div class="header-w3layouts"> 
+			<!-- Navigation -->
+			<nav class="navbar navbar-default navbar-fixed-top"> 
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">My_Design</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a class="navbar-brand" href="index.html">My Design</a></h1>
+					</div> 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right cl-effect-15">
+							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+							<li class="hidden"><a class="page-scroll" href="#page-top"></a>	</li>
+							<li><a class="page-scroll scroll" href="#home">Home</a></li>
+							<li><a class="page-scroll scroll" href="#about">About</a></li>
+							<li><a class="page-scroll scroll" href="#skills">Skills</a></li>
+							<li><a class="page-scroll scroll" href="#education">Education & Experience </a></li>
+							<li><a class="page-scroll scroll" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				<!-- /.container -->
+			</nav>  
+		</div>	
+		<!-- //header -->
 
-- Bulleted
-- List
+			<div class="w3_banner_info">
+				<div class="w3_banner_info_grid">
+					<h2 data-aos="fade-right">Hi,i am </h2>
+					<h2 data-aos="fade-right">Amardeep Gupta.</h2>
+					<h5>Computer engineer</h5>
+					<p> </p>
+					<ul data-aos="slide-up">
+						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Know More</a></li>
+						<li><a href="#" class="scroll w3l_contact"><i class="fa fa-download" aria-hidden="true"></i> Download CV</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="thim-click-to-bottom">
+				<a href="#about" class="scroll">
+					<i class="fa fa-arrows-v" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- banner -->
 
-1. Numbered
-2. List
+<!-- bootstrap-modal-pop-up -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title">About Me</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="modalpad"> 
+						<div class="modalpop ">
+							<img src="images/1.jpeg" class="img-responsive" alt=""/>
+						</div>
+						<div class="about-modal wthree">
+							<h3>Hi, i'm <span>Amardeep Gupta</span></h3>
+							<h4>Computer engineer</h4>
+							<ul class="address">
+								<li>
+									<ul class="agileits-address-text ">
+										<li><b>D.O.B</b></li>
+										<li>03-03-1996</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>PHONE </b></li>
+										<li>+91 7715005441</li>
+									</ul>
+								</li>
+								
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>E-MAIL </b></li>
+										<li><a href="mailto:example@mail.com"> amardeepg35@gmail.com</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>WEBSITE </b></li>
+										<li><a href="#">www.amardeep.org</a></li>
+									</ul>
+								</li>
+							</ul> 
+						</div> 
+						<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- //modal -->	
+<!-- //bootstrap-modal-pop-up --> 
 
-**Bold** and _Italic_ and `Code` text
+<!-- about -->
+<div class="about" id="about">
+	<h3 data-aos="zoom-in">About me</h3>
+	<div class="col-md-6 about-left">
+		<h3 data-aos="slide-up">Hello</h3>
+		<p>I'm a final year engineering student with an interest in Front End Development,Back-End Development , Ethical hacking and java developer. 
+					I have been trying my hands into these and have learnt quite a lot about HTML5, CSS3, JavaScript, jQuery, Bootstrap, PHP,Mysql, Python, Bash programming.
+					Currently I'm involved in learning Android App Development & web development using Django.</p>
+		<p></p>
+		<img src="images/signature.jpg" alt="" />
+	</div>
+	<div data-aos="flip-right" class="col-md-6 about-right">
+		<img src="images/about.jpg"  alt="" />
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- //about -->
 
-[Link](url) and ![Image](src)
-```
+<!-- skills -->
+<div class="skills" id="skills">
+	<div class="container">
+				<h3 data-aos="zoom-in">Skills</h3>
+		<div class="skill-grids">
+			
+					
+			<!-- Skills -->
+			<div class="skillbar clearfix " data-percent="80%">
+				<div class="skillbar-title" style="background: #ff4f81;"><span>HTML5</span></div>
+				<div class="skillbar-bar" style="background: #ff4f81;"></div>
+				<div class="skill-bar-percent">80%</div>
+			</div> <!-- End Skill Bar -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+			<div class="skillbar clearfix " data-percent="50%">
+				<div class="skillbar-title" style="background: #ff9900;"><span>CSS3</span></div>
+				<div class="skillbar-bar" style="background: #ff9900;"></div>
+				<div class="skill-bar-percent">50%</div>
+			</div> <!-- End Skill Bar -->
+			
+			<div class="skillbar clearfix " data-percent="80%">
+				<div class="skillbar-title" style="background: #ff4f81;"><span>BASH_PROGRAMMING</span></div>
+				<div class="skillbar-bar" style="background: #ff4f81;"></div>
+				<div class="skill-bar-percent">80%</div>
+			</div>
+			
+			<div class="skillbar clearfix " data-percent="80%">
+				<div class="skillbar-title" style="background: #ff4f81;"><span>Ethical_Hacking</span></div>
+				<div class="skillbar-bar" style="background: #ff4f81;"></div>
+				<div class="skill-bar-percent">80%</div>
+			</div>
 
-### Jekyll Themes
+			<div class="skillbar clearfix " data-percent="80%">
+				<div class="skillbar-title" style="background: #8e43e7;"><span>jQuery</span></div>
+				<div class="skillbar-bar" style="background: #8e43e7;"></div>
+				<div class="skill-bar-percent">80%</div>
+			</div> <!-- End Skill Bar -->
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Amtheboss/amardeep.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+			<div class="skillbar clearfix " data-percent="60%">
+				<div class="skillbar-title" style="background: #146eb4;"><span>PHP</span></div>
+				<div class="skillbar-bar" style="background: #146eb4;"></div>
+				<div class="skill-bar-percent">60%</div>
+			</div> <!-- End Skill Bar -->
 
-### Support or Contact
+			<div class="skillbar clearfix " data-percent="75%">
+				<div class="skillbar-title" style="background: #11b563;"><span>C</span></div>
+				<div class="skillbar-bar" style="background: #11b563;"></div>
+				<div class="skill-bar-percent">75%</div>
+			</div> <!-- End Skill Bar -->
+			
+			<div class="skillbar clearfix " data-percent="80%">
+				<div class="skillbar-title" style="background: #ff4f81;"><span>java</span></div>
+				<div class="skillbar-bar" style="background: #ff4f81;"></div>
+				<div class="skill-bar-percent">80%</div>
+			</div>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+				
+			<!-- //Skills -->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //skills -->
+
+<!-- /education -->
+ <div class="education" id="education">
+	    <div class="col-md-5 education-w3l">
+		     <h3 data-aos="zoom-in" class="w3l_head three">My Education</h3>
+			  <div class="education-agile-grids">
+				  <div class="education-agile-w3l">
+				     <div class="education-agile-w3l-year">
+					       <h4>2017</h4>
+						   <h6>Bachelor Degree</h6>
+				     </div>
+					 <div class="education-agile-w3l-info">
+					       <h4>Mumbai University</h4>
+						   <p>I am currently pursuing my bachelor degree in computer science from MGMCET.</p>
+						  
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				  <div class="education-agile-w3l two">
+				     <div class="education-agile-w3l-year">
+					       <h4>2013-2014</h4>
+						   <h6>H.S.C</h6>
+				     </div>
+					 <div class="education-agile-w3l-info">
+					       <h4>S.K Somaiya Vinay Mandir</h4>
+						   <p></p>
+						  
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				  <div class="education-agile-w3l">
+				     <div class="education-agile-w3l-year last">
+					       <h4>2012</h4>
+						   <h6>S.S.C</h6>
+				     </div>
+					 <div class="education-agile-w3l-info last">
+					       <h4>Mazidun High School</h4>
+						   <p></p>
+						  
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				 
+			  </div>
+		</div>
+		
+		<div data-aos="slide-up" class="col-md-2 middle">
+			<i class="fa fa-hourglass-end" aria-hidden="true"></i>
+		</div>
+		
+	    <div class="col-md-5 education-w3l">
+		     <h3 data-aos="zoom-in" class="w3l_head three">My Accomplishments</h3>
+			  <div class="education-agile-grids">
+				  <div class="education-agile-w3l">
+				     <div class="education-agile-w3l-year">
+					       <h4>2017</h4>
+						   <h6></h6>
+				     </div>
+					 <div class="education-agile-w3l-info">
+					       <h4>PHP MYSQL</h4>
+						   <p>Completed a course named "The complete PHP MYSQL Professional Course" from UDEMY </p>
+						  
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				  <div class="education-agile-w3l two">
+				     <div class="education-agile-w3l-year">
+					       <h4>2017</h4>
+						   <h6></h6>
+				     </div>
+					 <div class="education-agile-w3l-info">
+					       <h4>Python</h4>
+						   <p>Completed a course named "The complete Python 3 Course:Go from beginner to advanced!" from UDEMY</p>
+						  
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				  <div class="education-agile-w3l">
+				     <div class="education-agile-w3l-year last">
+					       <h4>2017</h4>
+						   <h6></h6>
+				     </div>
+					 <div class="education-agile-w3l-info last">
+					       <h4>ethical Hacking</h4>
+						  	<p>Completed a course named "The Complete Ethical hacking course:Beginner to Advanced!" from UDEMY</p>
+						  
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				  <div class="education-agile-w3l">
+				     <div class="education-agile-w3l-year last">
+					       <h4>2017</h4>
+						   <h6></h6>
+				     </div>
+					 <div class="education-agile-w3l-info last">
+					       <h4>BASH PROGRAMMING</h4>
+						  	<p>Completed a course named "BASH Programming Course:Master the linux Command" from UDEMY</p>
+						  
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				 
+			  </div>
+		</div>
+		 <div class="clearfix"> </div>
+		</div>
+ <!-- //education -->
+ 
+ 
+
+<!-- contact -->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="col-md-6 contact-left">
+			<h3 data-aos="zoom-in" >contact me</h3>
+				<p>Feel free to contact me, regarding any startups idea or projects!</p>
+			<form action="#" method="post">
+					<div class="col-md-6 agileits_agile_about_mail_left">
+					<p><a href="mailto:amardeepg35@gmail.com">amardeepg35@gmail.com</a></p>
+					
+					
+					</div>
+					<div class="col-md-6 agileits_agile_about_mail_left">
+						
+					</div>
+				<div class="clearfix"> </div>
+				
+				
+			</form>
+		</div>
+		<div class="col-md-6 contact-right">
+			<div data-aos="flip-down" class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+			<h4>Location</h4>
+			<p>Ganpati colony,rm.no:-742,Airoli naka Navi Mumbai-400708</p>
+			</div>
+			<div data-aos="flip-down" class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+			<h4>Phone</h4>
+			<p>+91 7715005441</p>
+			
+			</div>
+			<div class="clearfix"></div>
+			<div data-aos="flip-up"class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			<h4>Support</h4>
+			<p><a href="mailto:amardeepg35@gmail.com">amardeepg35@gmail.com</a></p>
+			</div>
+			<div data-aos="flip-up" class="col-md-6 contactright1">
+			<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			<h4>Mail</h4>
+			<p><a href="mailto:amardeepg35@gmail.com">amardeepg35@gmail.com</a></p>
+			<p><a href="mailto:amardeepg35@gmail.com">amardeepg35@gmail.com</a></p>
+			</div>
+			<div class="clearfix"></div>
+			<ul class="top-links">
+				<li data-aos="flip-right"><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li data-aos="flip-right"><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li data-aos="flip-right"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li data-aos="flip-right"><a href="https://www.linkedin.com/mwlite/me"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //contact -->
+
+<!-- map -->
+<div class="map">
+	<h3 data-aos="zoom-in" >Locate Me</h3>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.728658933401!2d-81.28171468446989!3d43.026098179147766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eee436c9b672f%3A0xbb99862bef7c6ace!2s1680+Richmond+St%2C+London%2C+ON+N6G+3Y9%2C+Canada!5e0!3m2!1sen!2sin!4v1496125001525"></iframe>
+</div>
+<!-- //map -->
+
+<!-- copyright -->
+<div class="copyright-agile">
+	<div class="container">
+		<h4> My Design</h4>
+		<p>© 2017 My Design. All rights reserved | Design by Amardeep Gupta</p>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- copyright -->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- //js -->
+
+<!-- Gallery-Tab-JavaScript -->
+			<script src="js/cbpFWTabs.js"></script>
+			<script>
+				(function() {
+					[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+						new CBPFWTabs( el );
+					});
+				})();
+			</script>
+<!-- //Gallery-Tab-JavaScript -->
+	<!-- Swipe-Box-JavaScript -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+		<!-- //Swipe-Box-JavaScript -->
+
+<!-- Scrolling Nav JavaScript --> 
+    <script src="js/scrolling-nav.js"></script>  
+<!-- //fixed-scroll-nav-js --> 
+
+<script src="js/index.js"></script><!-- skills bars JS FILE-->
+	
+<!-- animation effects-js files-->
+	<script src="js/aos.js"></script><!-- //animation effects-js-->
+	<script src="js/aos1.js"></script><!-- //animation effects-js-->
+<!-- animation effects-js files-->
+
+<!-- //here starts scrolling icon -->
+<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling script -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling script -->
+<!-- //here ends scrolling icon -->
+
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+
+</body>
+</html>
